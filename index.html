@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Первая помощь | МАУДО «ЦДТ»</title>
+    <title>МАУДО «ЦДТ» – Главная</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header>
         <div class="container">
-            <h1>Первая помощь в МАУДО «ЦДТ»</h1>
+            <h1>МАУДО «ЦДТ»</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="index.html">Главная</a></li>
                     <li><a href="first-aid/first-aid.html">Первая помощь</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
@@ -21,27 +20,37 @@
         </div>
     </header>
 
-    <main class="container">
-        <section class="hero">
-            <h2>Что делать при травмах и экстренных ситуациях</h2>
-            <p>На этом сайте вы найдете инструкции по оказанию первой помощи учащимся МАУДО «ЦДТ». Все материалы адаптированы под школьную и внешкольную обстановку.</p>
-        </section>
+    <section class="hero">
+        <div class="container">
+            <h2>Первая помощь в экстренных ситуациях</h2>
+            <p>Будьте готовы помочь в любой момент!</p>
+        </div>
+    </section>
 
-        <section class="quick-links">
-            <h3>Быстрые переходы</h3>
-            <ul>
-                <li><a href="first-aid/injury-types.html">Виды травм</a></li>
-                <li><a href="first-aid/first-aid-locations.html">Где найти аптечки</a></li>
-                <li><a href="first-aid/employee-actions.html">Действия сотрудников</a></li>
-            </ul>
-        </section>
-    </main>
+    <section class="features">
+    <div class="container">
+        <div class="feature" onclick="location.href='first-aid/first-aid.html'">
+            <h3>Алгоритмы действий</h3>
+            <p>Пошаговые инструкции для оказания первой помощи.</p>
+        </div>
+        <div class="feature" onclick="location.href='first-aid/first-aid-locations.html'">
+            <h3>Локация аптечек</h3>
+            <p>Где найти аптечку в здании.</p>
+        </div>
+        <div class="feature" onclick="location.href='first-aid/test.html'">
+            <h3>Проверьте свои знания</h3>
+            <p>Пройдите тест по первой помощи.</p>
+        </div>
+    </div>
+</section>
+
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 МАУДО «ЦДТ». Все права защищены.</p>
+        <div class="container">
+            <p>© 2025 МАУДО «ЦДТ» | Все права защищены</p>
         </div>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
